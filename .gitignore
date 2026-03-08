@@ -1,3 +1,8 @@
-.venv/
-media/
+# Python
 __pycache__/
+
+# Virtual environments
+.venv/
+
+# Generated media assets
+media/
