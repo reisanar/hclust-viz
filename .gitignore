@@ -5,4 +5,6 @@ __pycache__/
 .venv/
 
 # Generated media assets
-media/
+# Only ignore automatically generated partial movie segments.
+# Keep other media (images, texts, final videos) tracked.
+media/**/partial_movie_files/
